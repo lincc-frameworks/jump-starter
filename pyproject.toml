@@ -21,7 +21,7 @@ dependencies = [
     "pydantic",
     "pyyaml",
     "markdown",
-    "pygments",
+    "pygments>=2.0",
     "jinja2"
 ]
 
