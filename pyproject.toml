@@ -15,8 +15,14 @@ classifiers = [
     "Programming Language :: Python",
 ]
 dynamic = ["version"]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
+    "ipywidgets>=8.0",
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "markdown>=3.4",
+    "pygments>=2.0",
+    "jinja2>=3.0"
 ]
 
 [project.urls]
@@ -30,7 +36,10 @@ dev = [
     "pre-commit", # Used to run checks before finalizing a git commit
     "pytest",
     "pytest-cov", # Used to report total code coverage
+    "pytest-mock", # Used to mock objects in tests
     "ruff", # Used for static linting of files
+    "types-Markdown", # Type information for markdown
+    "types-PyYAML", # Type information for pyyaml
 ]
 
 [build-system]
@@ -53,7 +62,7 @@ addopts = "--doctest-modules --doctest-glob=*.rst"
 
 [tool.ruff]
 line-length = 110
-target-version = "py39"
+target-version = "py310"
 [tool.ruff.lint]
 select = [
     # pycodestyle
