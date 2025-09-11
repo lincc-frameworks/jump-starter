@@ -38,6 +38,8 @@ dev = [
     "pytest-cov", # Used to report total code coverage
     "pytest-mock", # Used to mock objects in tests
     "ruff", # Used for static linting of files
+    "types-Markdown", # Type information for markdown
+    "types-PyYAML", # Type information for pyyaml
 ]
 
 [build-system]

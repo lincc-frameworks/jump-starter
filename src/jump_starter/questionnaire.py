@@ -121,7 +121,7 @@ class QuestionnaireWidget:
         self._render_output_box()
         self._render_next_question()
 
-    def _add_questions_to_stack(self, questions: list[Question]):
+    def _add_questions_to_stack(self, questions: list[Question | Switch]):
         self.questions_stack = questions + self.questions_stack
 
     def _get_next_question(self) -> Question | None:
