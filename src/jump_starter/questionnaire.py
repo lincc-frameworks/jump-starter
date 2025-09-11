@@ -1,4 +1,3 @@
-from __future__ import annotations
 import os
 import re
 from importlib.resources import files

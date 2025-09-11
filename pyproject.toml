@@ -15,7 +15,7 @@ classifiers = [
     "Programming Language :: Python",
 ]
 dynamic = ["version"]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     "ipywidgets",
     "pydantic",
@@ -62,7 +62,7 @@ addopts = "--doctest-modules --doctest-glob=*.rst"
 
 [tool.ruff]
 line-length = 110
-target-version = "py39"
+target-version = "py310"
 [tool.ruff.lint]
 select = [
     # pycodestyle
