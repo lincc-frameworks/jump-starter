@@ -17,12 +17,12 @@ classifiers = [
 dynamic = ["version"]
 requires-python = ">=3.10"
 dependencies = [
-    "ipywidgets",
-    "pydantic",
-    "pyyaml",
-    "markdown",
+    "ipywidgets>=8.0",
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "markdown>=3.0",
     "pygments>=2.0",
-    "jinja2"
+    "jinja2>=3.0"
 ]
 
 [project.urls]
