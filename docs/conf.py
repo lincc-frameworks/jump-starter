@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath("../src/"))
 project = "jump-starter"
 copyright = "2024, lincc-frameworks"
 author = "lincc-frameworks"
-release = version("jump-starter")
+release = version("lf-jump-starter")
 # for example take major/minor
 version = ".".join(release.split(".")[:2])
 
