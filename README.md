@@ -6,7 +6,7 @@ quickly get started with your package.
 
 [![Template](https://img.shields.io/badge/Template-LINCC%20Frameworks%20Python%20Project%20Template-brightgreen)](https://lincc-ppt.readthedocs.io/en/latest/)
 
-[![PyPI](https://img.shields.io/pypi/v/jump-starter?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/jump-starter/)
+[![PyPI](https://img.shields.io/pypi/v/lf-jump-starter?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/lf-jump-starter/)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/lincc-frameworks/jump-starter/smoke-test.yml)](https://github.com/lincc-frameworks/jump-starter/actions/workflows/smoke-test.yml)
 [![Codecov](https://codecov.io/gh/lincc-frameworks/jump-starter/branch/main/graph/badge.svg)](https://codecov.io/gh/lincc-frameworks/jump-starter)
 [![Read The Docs](https://img.shields.io/readthedocs/jump-starter)](https://jump-starter.readthedocs.io/)
