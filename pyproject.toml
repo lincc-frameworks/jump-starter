@@ -1,6 +1,5 @@
-
 [project]
-name = "jump-starter"
+name = "lf-jump-starter"
 license = {file = "LICENSE"}
 readme = "README.md"
 authors = [
