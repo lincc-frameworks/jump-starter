@@ -34,7 +34,7 @@ jobs:
       run: |
         python -m pytest --cov=jump_starter --cov-report=xml
     - name: Upload coverage report to codecov
-      uses: codecov/codecov-action@v5
+      uses: codecov/codecov-action@v6
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
   test-lowest-versions:
